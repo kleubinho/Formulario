@@ -1,0 +1,103 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: blueviolet;
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 20px;
+    width: 20%;
+    color: aliceblue;
+}
+
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 3px solid white;
+    color: white;
+    outline: none;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 1px;
+}
+
+fieldset{
+    border: 3px solid rgb(84, 17, 122);
+}
+legend{
+    border: 1px solid rgb(84, 17, 122);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(133, 29, 194);
+    border-radius: 8px;
+    
+}
+
+#dataNascimento{
+    border: none;
+    padding: 2px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+#submit{
+    background-color: rgb(155, 48, 255);
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: rgb(93, 30, 151)
+}
+
+#selecao{
+    background: none;
+    border: none;
+    border-bottom: 3px solid white;
+    color: rgb(255, 255, 255);
+    outline: none;
+    font-size: 15px;
+    width: 100%;
+    
+}
+
+.opcao{
+    color: black;
+}
+
+.boxt{
+    border: none;
+    border-bottom: 3px solid white;
+    color: white;
+    outline: none;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 1px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(133, 29, 194);
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translate(-50%,-50%);
+    padding: 15px;
+    border-radius: 20px;
+    width: 10%;
+    color: aliceblue;
+}

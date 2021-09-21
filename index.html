@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Curriculo De Dev's</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser elemento" required>
+                    <label for="name">Nome Completo</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="email" name="email" id="email" class="inputUser elemento" required>
+                    <label for="name">Email</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="telefone" class="inputUser elemento" required>
+                    <label for="name">Telefone</label>
+                </div>
+                <p>Sexo:</p>
+                <input type="radio" class="elemento" name="genero" value="feminino" required>
+                <label for="feminino">Feminino</label>
+                <input type="radio" class="elemento" name="genero" value="masculino" required>
+                <label for="masculino">Masculino</label>
+                <input type="radio" class="elemento" name="genero" value="outro" required>
+                <label for="outro">Outro</label>
+                <br><br>
+                <div class="inputBox">
+                    <label for="data_nascimento"><b>Data de Nascimento:</b></label>
+                    <input type="date" class="elemento" name="dataNascimento" id="dataNascimento" required>
+                </div>
+                <br>
+
+                <p>De qual lado da aplicação você desenvolve?</p>
+                <input type="radio" class="elemento" name="devweb" value="frontend" checked>
+                <label for="frontend">Front-End</label>
+                <input type="radio" class="elemento" name="devweb" value="backend">
+                <label for="backend">Back-End</label>
+                <input type="radio" class="elemento" name="devweb" value="fullstack">
+                <label for="fullstack">Full-Stack</label>
+                <br><br>
+
+                <p>Senioridade:</p>
+                <select id="selecao" class="elemento">
+                    <option class="opcao" value="ensino tecnico">Ensino Tecnico</option>
+                    <option class="opcao" value="ensino superior">Ensino Superior</option>
+                </select>
+
+                <br><br>
+                <p>Selecione quais tecnologias você utiliza:</p>
+                <div class="">
+                    <input class="elemento" type="checkbox" value="html css js">
+                    <label for="html css js">HTML, CSS e JS</label>
+                </div>
+                <div>
+                    <input class="elemento" type="checkbox" value="C">
+                    <label for="C">C</label>
+                </div>
+                <div class="form-check form-switch">
+                    <input class="elemento" type="checkbox" value="java">
+                    <label for="java">Java</label>
+                </div>
+                <div>
+                    <input class="elemento" type="checkbox" value="nodejs">
+                    <label for="nodejs">NodeJS</label>
+                </div>
+                <br>
+                <input type="submit" name="submit" id="submit">
+
+            </fieldset>
+        </form>
+    </div>
+    
+    <!-- Area de apresentação de dados -->
+
+    <div id="retorno" class="boxt ">
+        <p>Confirme seus dados:</p>
+
+    </div>
+
+
+
+    <script src="js.js"></script>
+</body>
+
+</html>
